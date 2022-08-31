@@ -3,7 +3,8 @@ const reviews = [
     id:1,
     name: "Andrea Piacquadio",
     job: "ux designer", 
-    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg", 
+    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+    alt:"Profile picture of Andrea Piacquadio",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nesciunt quas vitae voluptatibus quos a sequi vero molestias perspiciatis possimus!",
     }, 
     {
