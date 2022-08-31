@@ -5,13 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Review display</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Reviews</title>
 </head>
 <body>
-    <div id="review-container"></div>    
-    <div class="footer">
-    <p>Tutorial: <a href="https://www.youtube.com/watch?v=SQdtEcQ0ll4" target="_blank">Here</a></p>
-    </div>
-    <script src="app.js"></script>
+    <main>
+        <section class="container">
+            <div class="title">
+                <h2>Our reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <article class="review">
+                <div class="image-container">
+                    <img id="person-img" width="150" height="150" src="" alt="person-img">
+                </div>
+                <h4 id="author"></h4>
+                <p id="job"></p>
+                <p id="info"></p>
+                <div class="button-container">
+                    <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <button class="random-btn">suprise me</button>
+            </article>
+        </section>
+    </main> 
+        <div class="footer">
+        <p>Tutorial: <a href="https://www.youtube.com/watch?v=3PHXvlpOkf4&list=WL&index=34" target="_blank">Here</a></p>
+        <p>Images and Author: <a href="https://www.pexels.com/" target="_blank">Pexels</a></p>
+        </div> 
 </body>
+<script src="index.js"></script>
 </html>
